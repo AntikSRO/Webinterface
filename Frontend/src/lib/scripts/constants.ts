@@ -1,5 +1,5 @@
 export const BASE_PATH = import.meta.env.VITE_API_URL || "play.petkopije.beer:25569" // <- Edit this string to your own API
-export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.ree6.de" // <- Edit this string to your Invite link
+export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.petkopije.beer" // <- Edit this string to your Invite link
 
 export function get(path: string) {
 
