@@ -16,7 +16,7 @@
 
 <div class="default-margin"></div>
 
-<BooleanSelector icon="newspaper" title="Publish news messages" description="Let Ree6 publish your news messages after you sent them!" settingName="configuration_autopublish" />
+<BooleanSelector icon="newspaper" title="Publish news messages" description="Let Definitelones publish your news messages after you sent them!" settingName="configuration_autopublish" />
 
 <div class="default-margin"></div>
 
