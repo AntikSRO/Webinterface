@@ -9,40 +9,38 @@
 		%sveltekit.head%
 	</head>
 
-	<body class="dark" data-sveltekit-preload-data="hover">
+	<body class="pink-theme" data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 
 	<style>
-
 		body {
 			overflow: hidden;
+			font-family: Arial, Helvetica, sans-serif;
 		}
 
+		/* 🌸 RUŽOVÁ TÉMA */
 		.dark {
-			--primary: #00ccff;
-			--seasalt: #f8f9faff;
-			--antiflash-white: #e9ecefff;
-			--platinum: #dee2e6ff;
-			--french-gray: #ced4daff;
-			--french-gray-2: #adb5bdff;
-			--slate-gray: #6c757dff;
-			--outer-space: #495057ff;
-			--onyx: #343a40ff;
-			--eerie-black: #212529ff;
+			--primary: var(--pink-dark);
+			--pink-light: #fce7f3;
+			--pink-medium: #f9a8d4;
+			--pink-dark: #ec4899;
+			--neutral-light: #ffffff;
+
 			--button-gap: 0.3rem;
 			--button-padding: 0.4rem 0.78rem;
 			--input-padding: 0.6rem 0.9rem;
 			--icon-padding: 0.4rem;
 			--button-radius: 1rem;
-			color: white;
-			font-family: Arial, Helvetica, sans-serif;
+
+			color: var(--pink-dark);
+			background-color: var(--pink-light);
 		}
 
 		body {
 			overflow-y: hidden;
 		}
-		
+
 		.clickable {
 			cursor: pointer;
 			user-select: none;
@@ -98,7 +96,7 @@
 		}
 
 		.text-bg {
-			color: var(--french-gray);
+			color: var(--pink-dark);
 		}
 
 		* {
