@@ -3,15 +3,16 @@
     align-items: center;
     gap: var(--button-gap);
     padding: var(--button-padding);
-    background-color: var(--onyx);
+    background-color: var(--pink-medium); // ružová namiesto onyx
     border-radius: 1rem;
     transition: 250ms all ease;
     cursor: pointer;
+    color: white;
 }
 
 .link {
     text-decoration: none;
-    color: white;
+    color: var(--pink-dark); // moderná ružová linka
 }
 
 .text {
@@ -19,7 +20,7 @@
     align-items: center;
     gap: var(--button-gap);
     padding: var(--button-padding);
-    background-color: var(--onyx);
+    background-color: var(--pink-medium);
     border-radius: 1rem;
     transition: 250ms all ease;
     outline: none;
@@ -39,12 +40,12 @@
 }
 
 .button:hover {
-    background-color: var(--eerie-black);
+    background-color: var(--pink-dark); // hover efekt
 }
 
 input {
     padding: var(--input-padding);
-    background-color: var(--onyx);
+    background-color: var(--pink-medium);
     border-radius: 1rem;
     transition: 250ms all ease;
     outline: none;
@@ -55,7 +56,7 @@ input {
 
 textarea {
     padding: var(--input-padding);
-    background-color: var(--onyx);
+    background-color: var(--pink-medium);
     border-radius: 1rem;
     transition: 250ms all ease;
     outline: none;
