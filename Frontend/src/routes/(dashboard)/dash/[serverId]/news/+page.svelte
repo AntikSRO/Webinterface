@@ -20,7 +20,7 @@
 
 <div class="default-margin"></div>
 
-<BooleanSelector icon="sync" title="Ree6 announcements" description="Receive announcements published by us." settingName="configuration_news" />
+<BooleanSelector icon="sync" title="Definitelones announcements" description="Receive announcements published by us." settingName="configuration_news" />
 
 <h1 class="headline">Rewards</h1>
 
