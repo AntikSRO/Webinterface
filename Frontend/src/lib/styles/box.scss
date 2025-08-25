@@ -2,7 +2,7 @@
     gap: 1rem;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: var(--pink-light);
+    background-color: #fce7f3; // svetlá ružová
 
     .box-title {
         display: flex;
@@ -26,7 +26,7 @@
             transition: 250ms ease;
 
             &:hover {
-                color: var(--pink-dark);
+                color: #ec4899; // moderná ružová na hover
             }
         }
 
@@ -40,7 +40,7 @@
                 align-items: center;
                 gap: var(--button-gap);
                 padding: var(--button-padding);
-                background-color: var(--pink-medium);
+                background-color: #f9a8d4; // stredná ružová
                 border-radius: 1rem;
                 transition: 250ms all ease;
                 cursor: pointer;
@@ -51,7 +51,7 @@
                 align-items: center;
                 gap: var(--button-gap);
                 padding: var(--button-padding);
-                background-color: var(--pink-medium);
+                background-color: #f9a8d4;
                 border-radius: 1rem;
                 transition: 250ms all ease;
                 outline: none;
@@ -71,12 +71,12 @@
             }
 
             .button:hover {
-                background-color: var(--pink-dark);
+                background-color: #ec4899; // tmavšia ružová
             }
 
             input {
                 padding: var(--input-padding);
-                background-color: var(--pink-medium);
+                background-color: #f9a8d4;
                 border-radius: 1rem;
                 transition: 250ms all ease;
                 outline: none;
@@ -87,7 +87,7 @@
 
             textarea {
                 padding: var(--input-padding);
-                background-color: var(--pink-medium);
+                background-color: #f9a8d4;
                 border-radius: 1rem;
                 transition: 250ms all ease;
                 outline: none;
@@ -107,3 +107,4 @@
         gap: 0.5rem;
     }
 }
+
